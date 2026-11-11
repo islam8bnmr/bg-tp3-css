@@ -27,6 +27,12 @@ ul {
     margin: auto;
 }
 
+#container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
 .menu-btn {
     cursor: pointer;
     position: absolute;
@@ -73,7 +79,7 @@ ul {
 .showcase {
     width: 100%;
     height: 400px;
-    background: url('../img/slide1.jpg') no-repeat center center/cover;
+    background: #fff url('../img/slide1.jpg') no-repeat top center/contain;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,14 +210,14 @@ ul {
     line-height: 2.8;
 }
 
-.footer {
+.footer, .sub-footer {
     background: #f2f2f2;
     color: #616161;
     font-size: 12px;
     padding: 20px 0;
 }
 
-.footer .inner {
+.footer .inner, .sub-footer .footer-inner {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
@@ -220,21 +226,21 @@ ul {
     justify-content: space-between;
 }
 
-.footer div {
+.footer div, .sub-footer div {
     display: flex;
     align-items: center;
 }
 
-.footer div i {
+.footer div i, .sub-footer div i {
     margin-right: 10px;
 }
 
-.footer ul {
+.footer ul, .sub-footer ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer li {
+.footer li, .sub-footer li {
     margin-right: 30px;
     margin-bottom: 20px;
 }
@@ -312,16 +318,19 @@ ul {
     }
 
     .links .links-inner ul,
-    .footer ul {
+    .footer ul,
+    .sub-footer ul {
         margin-bottom: 20px;
     }
 
-    .footer .inner {
+    .footer .inner,
+    .sub-footer .footer-inner {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .footer ul {
+    .footer ul,
+    .sub-footer ul {
         flex-direction: column;
     }
 }
