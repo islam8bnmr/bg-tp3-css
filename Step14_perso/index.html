@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Introduction à la Sécurité Web</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <nav class="main-nav">
+            <img src="../img/Logo.png" alt="Bingo" class="logo">
+            <ul class="main-menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#web-sec">Sécurité Web</a></li>
+                <li><a href="#bigData-intro">Réseaux</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li><a href="#"><i class="fas fa-shield-alt"></i></a></li>
+            </ul>
+        </nav>
+
+        <header class="showcase">
+            <h2>Introduction à la Cybersécurité Web</h2>
+            <p>Apprenez les bases pour protéger vos sites et applications web contre les vulnérabilités courantes</p>
+            <a href="#" class="btn">Commencer <i class="fas fa-chevron-right"></i></a>
+        </header>
+
+        <section id="web-sec" class="home-cards">
+            <div>
+                <img src="../img/card1_html.png" alt="">
+                <h3>1. Validation HTML</h3>
+                <p>Sécurisez les formulaires HTML en filtrant les entrées utilisateurs côté client et côté serveur.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div>
+                <img src="../img/card2_css.png" alt="">
+                <h3>2. Isolation de l'interface</h3>
+                <p>Protégez l'affichage de vos pages web contre le détournement de clics (Clickjacking) et l'injection de styles.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div>
+                <img src="../img/card3_JS.png" alt="">
+                <h3>3. Failles XSS (JavaScript)</h3>
+                <p>Comprenez comment éviter l'exécution de scripts malveillants dans le navigateur des visiteurs.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div>
+                <img src="../img/card4_HTTP.png" alt="">
+                <h3>4. Protocole HTTPS</h3>
+                <p>Découvrez comment le chiffrement SSL/TLS sécurise les échanges HTTP entre le client et le serveur.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <section id="bigData-intro">
+            <div class="content">
+                <h2>Protection des Données</h2>
+                <p>La sécurité d'une application web repose sur trois piliers : la confidentialité, l'intégrité et la disponibilité des données stockées sur vos serveurs.</p>
+                <a href="#" class="btn">Découvrir <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <section id="bigData" class="home-cards">
+            <div>
+                <img src="../img/card5_hdfs.png" alt="">
+                <h3>Injection SQL (SQLi)</h3>
+                <p>Apprenez à utiliser les requêtes préparées pour protéger vos bases de données contre les accès non autorisés.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div>
+                <img src="../img/card6_pipelines.png" alt="">
+                <h3>Authentification & Sessions</h3>
+                <p>Gérez les mots de passe avec le hachage (bcrypt) et sécurisez les cookies de session des utilisateurs.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div>
+                <img src="../img/card7_spark.png" alt="">
+                <h3>Pare-feu Web (WAF)</h3>
+                <p>Surveillez le trafic HTTP en temps réel pour bloquer les requêtes suspectes et les attaques par déni de service.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div>
+                <img src="../img/card8_kafka.png" alt="">
+                <h3>Journalisation (Logs)</h3>
+                <p>Enregistrez les événements du serveur pour détecter rapidement les tentatives d'intrusion et analyser les bugs.</p>
+                <a href="#">Lire plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <section id="contact" class="ruban dark">
+            <div class="content">
+                <h2>Les Bonnes Pratiques OWASP</h2>
+                <p>Le projet OWASP regroupe les 10 vulnérabilités web les plus connues. Appliquer ces règles dès le développement permet de créer des sites web fiables et sécurisés.</p>
+                <a href="#" class="btn">En savoir plus <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <section class="follow">
+            <p>Suivez-nous:</p>
+            <a href="#"><span class="fab fa-youtube"></span></a>
+            <a href="#"><span class="fab fa-github"></span></a>
+            <a href="#"><span class="fab fa-linkedin"></span></a>
+        </section>
+    </div>
+
+    <section class="links">
+        <div class="links-inner">
+            <ul>
+                <li><h3>Sécurité Web</h3></li>
+                <li><a href="#">Failles XSS</a></li>
+                <li><a href="#">Injection SQL</a></li>
+                <li><a href="#">Faille CSRF</a></li>
+                <li><a href="#">Sécurité des cookies</a></li>
+                <li><a href="#">En-têtes HTTP</a></li>
+            </ul>
+            <ul>
+                <li><h3>Réseaux & Serveurs</h3></li>
+                <li><a href="#">Protocole HTTPS</a></li>
+                <li><a href="#">Certificats SSL/TLS</a></li>
+                <li><a href="#">Configuration Apache/Nginx</a></li>
+                <li><a href="#">Pare-feu (Firewall)</a></li>
+                <li><a href="#">Sécurité DNS</a></li>
+            </ul>
+            <ul>
+                <li><h3>Ressources</h3></li>
+                <li><a href="#">Guide OWASP Top 10</a></li>
+                <li><a href="#">Supports de cours</a></li>
+                <li><a href="#">TP et exercices</a></li>
+                <li><a href="#">Documentation MDN</a></li>
+                <li><a href="#">Bonnes pratiques</a></li>
+            </ul>
+            <ul>
+                <li><h3>Outils</h3></li>
+                <li><a href="#">Inspecteur du navigateur</a></li>
+                <li><a href="#">Analyseur de requêtes</a></li>
+                <li><a href="#">Gestionnaire Git</a></li>
+                <li><a href="#">Validateur W3C</a></li>
+                <li><a href="#">Tests de sécurité</a></li>
+            </ul>
+            <ul>
+                <li><h3>À propos</h3></li>
+                <li><a href="#">Module Programmation Web</a></li>
+                <li><a href="#">Étape 14 - Contenu personnel</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="sub-footer">
+        <div class="footer-inner">
+            <div><i class="fas fa-globe fa-2x"></i> Français (France)</div>
+            <ul>
+                <li><a href="#">Plan du site</a></li>
+                <li><a href="#">Confidentialité</a></li>
+                <li><a href="#">Conditions d'utilisation</a></li>
+                <li><a href="#">Sécurité</a></li>
+                <li><a href="#">&copy; Sécurité Web Academy 2026</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
